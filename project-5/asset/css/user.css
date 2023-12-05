@@ -1,0 +1,64 @@
+.infor {
+  padding: 30px 0;
+}
+
+.infor__wrap {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 50%;
+}
+
+.infor__content {
+  margin-bottom: 25px;
+}
+
+.infor__title {
+  font-size: 28px;
+}
+
+.infor__text {
+  display: flex;
+  flex-direction: column;
+  margin: 35px 0;
+}
+
+.infor__text label {
+  text-align: left;
+}
+
+.infor__text  input {
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+.infor__product {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.infor__address {
+  margin-bottom: 10px;
+}
+
+.infor__address textarea{
+  width: 100%;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+}
+
+.infor__button {
+  display: inline-block;
+  padding: 8px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}

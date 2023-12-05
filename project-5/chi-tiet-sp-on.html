@@ -13,44 +13,58 @@
 </head>
 
 <body>
-
     <!-- header  -->
     <div class="header">
         <div class="container">
             <div class="header__wrap">
-                <a href="index.html" class="header__logo">
+                <a href="indexOn.html" class="header__logo">
                     <img src="asset/images/logo.png" alt="logo mwc">
                 </a>
                 <ul class="header__list">
-                    <li><a href="giay-nu.html">GIÀY NỮ</a></li>
-                    <li><a href="giay-nam.html">GIÀY NAM</a></li>
+                    <li><a href="giay-nu-on.html">GIÀY NỮ</a></li>
+                    <li><a href="giay-nam-on.html">GIÀY NAM</a></li>
                 </ul>
                 <form class="header_search">
                     <input type="text" placeholder="Tìm kiếm">
-                    <a href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="search-on.html"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </form>
                 <div class="header__search-pro">
-                    <a href="sreachpro.html">Tìm kiếm</a>
+                    <a href="searchpro-on.html">Tìm kiếm</a>
                 </div>
-                <a href="" class="header__cart" onclick="notification()">
+                <a href="gio-hang.html" class="header__cart">
                     <span>Giỏ hàng</span>
                     <i class="fa-solid fa-cart-shopping"></i>
                 </a>
-                <a href="" class="header__history" onclick="notification()">Lịch sử mua hàng <i class="fa-solid fa-clock-rotate-left"></i></a>
-                <a href="dangnhap.html" class="header__user">
-                    <span>Đăng nhập</span>
-                    <i class="fa-regular fa-user"></i>
-                </a>
+                <a href="history.html" class="header__history">Lịch sử mua hàng <i class="fa-solid fa-clock-rotate-left"></i></a>
+                <div  class="header__user header__user--hover">
+                    <div class="header__avt">
+                        <span>GroupFive</span>
+                        <img src="asset/images/icon_account.png">
+                    </div> 
+                    <div class="logout">
+                        <ul>
+                            <li>
+                                <a href="user.html"><i class="fa-solid fa-circle-info"></i>Thông tin</a>
+                            </li>
+                            <li>
+                                <a href="index.html">
+                                    <i class="fa-solid fa-right-from-bracket"></i>
+                                    <a href="index.html"> Đăng xuất</a>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>           
             </div>
         </div>
     </div>
     <!-- end header  -->
-    
+
     <div class="content">
         <div class="container">
             <div class="content__wrap">
                 <div class="content__img">
-                    <img src="asset/images/giaynam1.jpg" alt="">
+                    <img src="asset/images/giaynam5.jpg" alt="">
                 </div>
                 <div class="content_text">
                     <div class="content__title">
@@ -67,10 +81,10 @@
                         <li>925 Số lượng thích</li>
                     </ul>
                     <ul class="content__listgt">
-                        <li>Thiết kế với dáng mũi nhọn , quai mãnh đính đá lắp lánh , gót nhọn cao 9cm...</li>
-                        <li>Được thiết kế form chuẩn với bàn chân của phụ nữ Việt Nam, sườn 4 lớp mang đến sự vững chắc
+                        <li>-Thiết kế với dáng mũi nhọn , quai mãnh đính đá lắp lánh , gót nhọn cao 9cm...</li>
+                        <li>-Được thiết kế form chuẩn với bàn chân của phụ nữ Việt Nam, sườn 4 lớp mang đến sự vững chắc
                             giúp cho các nàng hoàn toàn tự tin trên từng bước chân.</li>
-                        <li>Phù hợp đi tiệc, đi làm, công sở, đi học, đi chơi, du lịch…</li>
+                        <li>-Phù hợp đi tiệc, đi làm, công sở, đi học, đi chơi, du lịch…</li>
                     </ul>
                     <div class="content__price">
                         235.000 đ
@@ -90,21 +104,21 @@
                             <span>Màu:</span>
                             <select name="color" id="color">
                                 <option value="color">--Chọn--</option>
-                                <option value="color">Đen</option>
                                 <option value="color">Xám</option>
                                 <option value="color">Bạc</option>
+                                <option value="color">Đen</option>
                                 <option value="color">Hồng</option>
                             </select>
                         </div>
                     </form>
-                    <button id="cart" class="content__cart" onclick="notification()"><i class="fa-solid fa-cart-shopping"></i> <span>Thêm vào giỏ
+                    <button id="cart" class="content__cart" onclick="notifi()"><i class="fa-solid fa-cart-shopping"></i> <span>Thêm vào giỏ
                             hàng</span></button>
                 </div>
             </div>
         </div>
     </div>
-    
-    <!-- content  -->
+
+    <!-- text  -->
     <div class="text">
         <div class="container">
             <div class="text__title">
@@ -112,13 +126,13 @@
             </div>
         </div>
     </div>
-    <!-- end content  -->
+    <!-- end text  -->
 
     <!-- product  -->
     <div class="product">
         <div class="container">
             <div class="product__wrap">
-                <a href="chi-tiet-sp.html" class="product__item">
+                <a href="chi-tiet-sp-on.html" class="product__item">
                     <div class="product__img">
                         <img src="asset/images/giaynu10.jpg" alt="">
                     </div>
@@ -129,7 +143,7 @@
                         345,000 đ
                     </div>
                 </a>
-                <a href="chi-tiet-sp.html" class="product__item">
+                <a href="chi-tiet-sp-on.html" class="product__item">
                     <div class="product__img">
                         <img src="asset/images/giaynu12.jpg" alt="">
                     </div>
@@ -140,7 +154,7 @@
                         335,000 đ
                     </div>
                 </a>
-                <a href="chi-tiet-sp.html" class="product__item">
+                <a href="chi-tiet-sp-on.html" class="product__item">
                     <div class="product__img">
                         <img src="asset/images/giaynam8.jpg" alt="">
                     </div>
@@ -151,7 +165,7 @@
                         345,000 đ
                     </div>
                 </a>
-                <a href="chi-tiet-sp.html" class="product__item">
+                <a href="chi-tiet-sp-on.html" class="product__item">
                     <div class="product__img">
                         <img src="asset/images/giaynam5.jpg" alt="">
                     </div>
@@ -188,5 +202,3 @@
     <!-- end footer  -->
     <script src="asset/js/notification.js"></script>
 </body>
-
-</html>

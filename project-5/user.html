@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/css/base.css">
+    <link rel="stylesheet" href="asset/css/user.css">
+    <script>
+        function Logout() {
+            window.location.href = "index.html";
+        }
+    </script>
+</head>
+
+<body>
+    <!-- header  -->
+    <div class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <a href="indexOn.html" class="header__logo">
+                    <img src="asset/images/logo.png" alt="logo mwc">
+                </a>
+                <ul class="header__list">
+                    <li><a href="giay-nu-on.html">GIÀY NỮ</a></li>
+                    <li><a href="giay-nam-on.html">GIÀY NAM</a></li>
+                </ul>
+                <form class="header_search">
+                    <input type="text" placeholder="Tìm kiếm">
+                    <a href="search-on.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </form>
+                <div class="header__search-pro">
+                    <a href="searchpro-on.html">Tìm kiếm</a>
+                </div>
+                <a href="gio-hang.html" class="header__cart">
+                    <span>Giỏ hàng</span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="history.html" class="header__history">Lịch sử mua hàng <i class="fa-solid fa-clock-rotate-left"></i></a>
+                <div  class="header__user header__user--hover">
+                    <div class="header__avt">
+                        <span>GroupFive</span>
+                        <img src="asset/images/icon_account.png">
+                    </div> 
+                    <div class="logout">
+                        <ul>
+                            <li>
+                                <a href="index.html">
+                                    <i class="fa-solid fa-right-from-bracket"></i>
+                                    <a href="index.html"> Đăng xuất</a>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>           
+            </div>
+        </div>
+    </div>
+    <!-- end header  -->
+
+   <!-- infor  -->
+   <div class="infor">
+    <div class="infor__wrap">
+        <div class="infor__content">
+            <div class="infor__title">
+                Hồ sơ của tôi
+            </div>
+            <div class="infor__sub-title">
+                Quản lý thông tin hồ sơ để bảo mật tài khoản
+            </div>
+        </div>
+        <form class="infor__form">
+            <div class="infor__text">
+                <label for="username">Tên đăng nhập</label>
+                <input type="text" id="username" value="group five">
+            </div>
+            <div class="infor__text">
+                <label for="email">Email</label>
+                <input type="email" id="email" value="groupfive@gmail.com">
+            </div>
+            <div class="infor__text">
+                <label for="number">Số điện thoại</label>
+                <input type="text" id="number" value="0987281621">
+            </div>
+        </form>
+        <div class="infor__product">
+            Thông tin nhận hàng
+        </div>
+        <form class="infor__address">
+            <textarea name="" id="" cols="30" rows="5">To Vinh Dien, Quận Ba Đình, VN</textarea>
+        </form>
+        <div class="infor__button" onclick="save()">
+            Lưu
+        </div>
+    </div>
+   </div>
+   <!--end infor  -->
+
+    <!-- footer  -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__content">
+                    <div class="footer__title">
+                        SHOP GIÀY MWC
+                    </div>
+                    <div class="footer__address">
+                        Địa chỉ: VP: 214/14 Nguyễn Trãi, Phường Nguyễn Cư Trinh, Tp Hồ Chí Minh
+                    </div>
+                </div>
+                <div class="footer__logo">
+                    <img src="asset/images/bocongthuong.png" alt="bocongthuong">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer  -->
+    <script src="asset/js/notification.js"></script>
+</body>

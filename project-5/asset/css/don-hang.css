@@ -1,0 +1,47 @@
+.order {
+    padding: 40px 0;
+}
+
+.order__wrap{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 600px;
+    background: #fff;
+    padding: 60px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.order__check i {
+    background:#74B816;
+    color: #fff;
+    font-size: 32px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order__content p{
+    margin-bottom: -10px;
+}
+
+.order__button {
+    padding: 20px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.order__button a {
+    background: #00A0E3;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.order__button a:hover {
+    background: #3bbaf1;
+}
