@@ -14,3 +14,7 @@ function sign(){
 function save() {
     alert("Đã lưu thông tin");
 }
+
+function deletend() {
+    alert("Đã xóa sản phẩm khỏi giỏ hàng");
+}
